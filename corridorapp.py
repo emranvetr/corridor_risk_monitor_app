@@ -49,7 +49,7 @@ def create_excel(df):
     return output
 
 
-if st.button("Run risk monitor"):
+if st.button("Run Risk Monitor"):
     if not isin_input.strip():
         st.warning("Please enter at least one ISIN.")
     else:
